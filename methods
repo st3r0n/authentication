@@ -1,0 +1,10 @@
+
+X-Forwarded-For
+
+
+FOR PASSWORD BASED LOGINS
+1. username enumeration bu different response ----> found mainly when invalid username changes to invalid passsword ehrn username is found
+2. look at the response code in intruder 
+3. look at response timing when attacking a paramter try to redo tha attack
+4. ip block --> sometimes X-Forwarded-for can help 
+somtimes a valid credential can help reset the ip block so we can use our valid credential in between the dicktionary like every 4th or 5th one
